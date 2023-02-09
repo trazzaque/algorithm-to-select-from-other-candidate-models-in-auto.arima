@@ -1,1 +1,2 @@
-# algorithm-to-select-from-other-candidate-models-in-auto.arima
+# algorithm-to-select-from-other-candidate-models-in-auto.arima![Figure 1](https://user-images.githubusercontent.com/124894147/217830891-30c22782-284a-4b9e-b6c6-9dfd0e44474e.jpg)
+When we have a time series data with short span of time, auto.arima in R tends to declair every time series as a white noise which is an ARIMA model of no parameters. What if there's a better candidate model  within auto.arima which may have a better cross validation RMSE or even a better exponential model for that declaired white noise series? This code helps us find that candidate model from auto.arima. The figure also provides the flow chart of the simple algorithm.
